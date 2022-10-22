@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.accenture.steelbody.controller.AboutController">
+   <ImageView fitHeight="800.0" fitWidth="1280.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="@../images/background.jpg" />
+      </image>
+   </ImageView>
+   <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="1226.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="@../images/exit.png" />
+      </image>
+   </ImageView>
+   <Button layoutX="1226.0" layoutY="14.0" mnemonicParsing="false" onAction="#ReturnMain" opacity="0.0" prefHeight="40.0" prefWidth="40.0">
+      <font>
+         <Font size="14.0" />
+      </font>
+   </Button>
+   <Label alignment="CENTER" layoutX="440.0" layoutY="34.0" prefHeight="70.0" prefWidth="400.0" styleClass="label-header" text="Steel Body" textFill="#eabd7f">
+      <font>
+         <Font name="Verdana Bold Italic" size="45.0" />
+      </font>
+   </Label>
+   <ImageView fitHeight="200.0" fitWidth="200.0" layoutX="541.0" layoutY="104.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="@../images/logo.png" />
+      </image>
+   </ImageView>
+   <Label alignment="CENTER" layoutX="441.0" layoutY="304.0" prefHeight="40.0" prefWidth="400.0" styleClass="label-header" text="Авторы" textFill="#eabd7f">
+      <font>
+         <Font name="Verdana Bold Italic" size="30.0" />
+      </font>
+   </Label>
+   <HBox layoutY="344.0" prefHeight="200.0" prefWidth="1280.0" spacing="200.0">
+      <children>
+         <ImageView fitHeight="200.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+               <Image url="@../images/author1.jpg" />
+            </image>
+         </ImageView>
+         <ImageView fitHeight="200.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+               <Image url="@../images/author4.png" />
+            </image>
+         </ImageView>
+         <ImageView fitHeight="200.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+               <Image url="@../images/author0.jpg" />
+            </image>
+         </ImageView>
+      </children>
+      <padding>
+         <Insets left="140.0" right="140.0" />
+      </padding>
+   </HBox>
+   <HBox layoutY="535.0" prefHeight="80.0" prefWidth="1280.0">
+      <children>
+         <Label alignment="CENTER" prefHeight="80.0" prefWidth="400.0" styleClass="label-header" text="Борис Арсенов" textFill="#eabd7f">
+            <font>
+               <Font name="Verdana Italic" size="30.0" />
+            </font>
+         </Label>
+         <Label alignment="CENTER" prefHeight="80.0" prefWidth="400.0" styleClass="label-header" text="Никита Комиссаров" textFill="#eabd7f">
+            <font>
+               <Font name="Verdana Italic" size="30.0" />
+            </font>
+         </Label>
+         <Label alignment="CENTER" prefHeight="80.0" prefWidth="400.0" styleClass="label-header" text="Виктор Калинин" textFill="#eabd7f">
+            <font>
+               <Font name="Verdana Italic" size="30.0" />
+            </font>
+         </Label>
+      </children>
+      <padding>
+         <Insets left="40.0" right="40.0" />
+      </padding>
+   </HBox>
+   <Label alignment="CENTER" layoutX="440.0" layoutY="759.0" prefHeight="40.0" prefWidth="400.0" styleClass="label-header" text="© 2021, Тверь. Все права защищены." textFill="#eabd7f">
+      <font>
+         <Font name="Verdana" size="16.0" />
+      </font>
+   </Label>
+   <HBox layoutX="41.0" layoutY="615.0" prefHeight="30.0" prefWidth="1200.0">
+      <children>
+         <Label alignment="CENTER" prefHeight="30.0" prefWidth="400.0" styleClass="label-header" text="Java - программирование" textFill="#eabd7f">
+            <font>
+               <Font name="Verdana" size="20.0" />
+            </font>
+         </Label>
+         <Label alignment="CENTER" prefHeight="30.0" prefWidth="400.0" styleClass="label-header" text="Организация" textFill="#eabd7f">
+            <font>
+               <Font name="Verdana" size="20.0" />
+            </font>
+         </Label>
+         <Label alignment="CENTER" prefHeight="30.0" prefWidth="400.0" styleClass="label-header" text="Документация" textFill="#eabd7f">
+            <font>
+               <Font name="Verdana" size="20.0" />
+            </font>
+         </Label>
+      </children>
+   </HBox>
+   <HBox layoutX="41.0" layoutY="645.0" prefHeight="30.0" prefWidth="1200.0">
+      <children>
+         <Label alignment="CENTER" prefHeight="30.0" prefWidth="400.0" styleClass="label-header" text="База данных" textFill="#eabd7f">
+            <font>
+               <Font name="Verdana" size="20.0" />
+            </font>
+         </Label>
+         <Label alignment="CENTER" prefHeight="30.0" prefWidth="400.0" styleClass="label-header" text="Дизайн" textFill="#eabd7f">
+            <font>
+               <Font name="Verdana" size="20.0" />
+            </font>
+         </Label>
+         <Label alignment="CENTER" prefHeight="30.0" prefWidth="400.0" styleClass="label-header" text="Тестирование" textFill="#eabd7f">
+            <font>
+               <Font name="Verdana" size="20.0" />
+            </font>
+         </Label>
+      </children>
+   </HBox>
+   <HBox layoutX="41.0" layoutY="675.0" prefHeight="30.0" prefWidth="1200.0">
+      <children>
+         <Label alignment="CENTER" prefHeight="30.0" prefWidth="400.0" styleClass="label-header" text="Дизайн" textFill="#eabd7f">
+            <font>
+               <Font name="Verdana" size="20.0" />
+            </font>
+         </Label>
+         <Label alignment="CENTER" prefHeight="30.0" prefWidth="400.0" styleClass="label-header" text="Java - программирование" textFill="#eabd7f">
+            <font>
+               <Font name="Verdana" size="20.0" />
+            </font>
+         </Label>
+         <Label alignment="CENTER" prefHeight="30.0" prefWidth="400.0" styleClass="label-header" text="Дизайн" textFill="#eabd7f">
+            <font>
+               <Font name="Verdana" size="20.0" />
+            </font>
+         </Label>
+      </children>
+   </HBox>
+   <ImageView fitHeight="120.0" fitWidth="120.0" layoutX="180.0" layoutY="169.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="@../images/college.png" />
+      </image>
+   </ImageView>
+   <ImageView fitHeight="120.0" fitWidth="120.0" layoutX="980.0" layoutY="169.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="@../images/accenture.png" />
+      </image>
+   </ImageView>
+   <Label alignment="CENTER" layoutX="40.0" layoutY="89.0" prefHeight="40.0" prefWidth="400.0" styleClass="label-header" text="При поддержке" textFill="#eabd7f">
+      <font>
+         <Font name="Verdana Italic" size="24.0" />
+      </font>
+   </Label>
+   <Label alignment="CENTER" layoutX="40.0" layoutY="129.0" prefHeight="40.0" prefWidth="400.0" styleClass="label-header" text="Колледж им. А. Н. Коняева" textFill="#eabd7f">
+      <font>
+         <Font name="Verdana Italic" size="24.0" />
+      </font>
+   </Label>
+   <Label alignment="CENTER" layoutX="840.0" layoutY="89.0" prefHeight="40.0" prefWidth="400.0" styleClass="label-header" text="Особая благодарность" textFill="#eabd7f">
+      <font>
+         <Font name="Verdana Italic" size="24.0" />
+      </font>
+   </Label>
+   <Label alignment="CENTER" layoutX="840.0" layoutY="129.0" prefHeight="40.0" prefWidth="400.0" styleClass="label-header" text="Accenture" textFill="#eabd7f">
+      <font>
+         <Font name="Verdana Italic" size="24.0" />
+      </font>
+   </Label>
+</AnchorPane>
